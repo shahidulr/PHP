@@ -1,0 +1,43 @@
+
+<html>
+<head>
+	<title>php syntax</title>
+
+	<style type="text/css">
+
+.phpcoding{
+    
+    font-family:  <?php echo $font ?>;  
+	width: 900px;
+	margin: 0 auto;
+	background: #ddd;
+	padding: 20px;
+
+}
+	</style>
+
+</head>
+<body>
+
+
+<section class="phpcoding">
+1.String operator
+
+
+<?php
+  
+   $name="shahidul ";
+   name1="Rina";
+   
+   $z=$name.$name1;
+    $name.=$name1;
+   echo $name;
+
+?>
+
+
+	</section>
+
+
+</body>
+</html>
